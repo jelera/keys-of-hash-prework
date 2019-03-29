@@ -6,18 +6,9 @@ class Hash
     output = []
 
     self.each do |k,v|
-      # output << k if arguments.include?(v)
-      arguments.include?(v) ? output << k : nil
+      output << k if arguments.include?(v)
     end
 
-    output = arguments
-  end
-
-  def monkey
-    self
+    output
   end
 end
-
-jose = {"iker" => "real", "messi" => "barca"}
-binding.pry
-puts jose.keys_of("barca", "real")
