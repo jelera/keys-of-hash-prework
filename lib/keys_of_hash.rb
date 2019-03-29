@@ -10,7 +10,7 @@ class Hash
       arguments.include?(v) ? output << k : nil
     end
 
-    output
+    output = arguments
   end
 
   def monkey
