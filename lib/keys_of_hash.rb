@@ -20,5 +20,4 @@ end
 
 jose = {"iker" => "real madrid", "messi" => "barca"}
 
-binding.pry
-jose.keys_of
+puts jose.keys_of("barca")
