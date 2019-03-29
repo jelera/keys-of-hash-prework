@@ -13,6 +13,10 @@ class Hash
 
     output
   end
+
+  def name
+    self.name = 'jose'
+  end
 end
 
 jose = Hash.new.keys_of("iker", "casillas")
