@@ -11,6 +11,10 @@ class Hash
 
     output
   end
+
+  def monkey
+    self
+  end
 end
 
 jose = {"iker" => "real", "messi" => "barca"}
