@@ -5,6 +5,7 @@ class Hash
     # code goes here
     output = []
 
+    binding.pry
     self.each do |k,v|
       output << k if arguments.include?(v)
       binding.pry
