@@ -11,10 +11,6 @@ class Hash
 
     output
   end
-
-  def name
-    self.name = 'jose'
-  end
 end
 
 jose = {"iker" => "real", "messi" => "barca"}
