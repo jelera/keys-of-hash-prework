@@ -5,7 +5,6 @@ class Hash
     # code goes here
     output = []
 
-    binding.prdy
     self.each do |k,v|
       output << k if arguments.include?(v)
     end
