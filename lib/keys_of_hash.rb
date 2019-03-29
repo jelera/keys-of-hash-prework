@@ -17,6 +17,6 @@ class Hash
   end
 end
 
-jose = {"iker" => "real madrid", "messi" => "barca"}
+jose = {"iker" => "real", "messi" => "barca"}
 
-puts jose.keys_of("barca")
+puts jose.keys_of("barca", "real")
