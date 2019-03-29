@@ -12,3 +12,6 @@ class Hash
     output
   end
 end
+
+jose = {"iker" => "real", "messi" => "barca"}
+puts jose.keys_of("barca", "real").class
