@@ -5,10 +5,9 @@ class Hash
     # code goes here
     output = []
 
-    binding.pry
+    binding.prdy
     self.each do |k,v|
       output << k if arguments.include?(v)
-      binding.pry
     end
 
     output
@@ -19,4 +18,7 @@ class Hash
   end
 end
 
-jose = Hash.new.keys_of("iker", "casillas")
+jose = {"iker" => "real madrid", "messi" => "barca"}
+
+binding.pry
+jose.keys_of
