@@ -7,6 +7,7 @@ class Hash
 
     binding.pry
     self.each do |k,v|
+      binding.pry
       output << k if arguments.include?(v)
     end
 
