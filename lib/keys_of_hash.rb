@@ -6,7 +6,8 @@ class Hash
     output = []
 
     self.each do |k,v|
-      output << k if arguments.include?(v)
+      # output << k if arguments.include?(v)
+      arguments.include?(v) ? output << k : nil
     end
 
     output
