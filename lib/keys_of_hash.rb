@@ -14,5 +14,5 @@ class Hash
 end
 
 jose = {"iker" => "real", "messi" => "barca"}
-
+binding.pry
 puts jose.keys_of("barca", "real")
